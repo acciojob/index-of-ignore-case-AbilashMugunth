@@ -1,5 +1,6 @@
 function indexOfIgnoreCase(s1, s2) {
-  // write your code here
+  let result = s1.search(new RegExp(s2, "i"));
+	return result;
 }
 
 // Please do not change the code below
